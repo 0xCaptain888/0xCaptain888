@@ -6,9 +6,9 @@ Agents can act — but never beyond a defined budget, permission, risk boundary,
 
 <p>
   <a href="https://github.com/0xCaptain888/agent-control-plane"><img src="https://img.shields.io/badge/core-agent--control--plane-111827?style=flat-square&logo=github&logoColor=white" alt="Agent Control Plane"></a>
-  <a href="https://github.com/0xCaptain888/agent-control-plane/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/0xCaptain888/agent-control-plane/ci.yml?branch=codex/security-upgrade&style=flat-square&label=checks" alt="CI checks"></a>
+  <a href="https://github.com/0xCaptain888/agent-control-plane/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/0xCaptain888/agent-control-plane/ci.yml?branch=main&style=flat-square&label=checks" alt="CI checks"></a>
   <a href="https://github.com/0xCaptain888/agent-control-plane"><img src="https://img.shields.io/badge/Node-22-3c873a?style=flat-square&logo=node.js&logoColor=white" alt="Node 22"></a>
-  <a href="https://github.com/0xCaptain888/agent-control-plane/blob/codex/security-upgrade/SECURITY.md"><img src="https://img.shields.io/badge/security-policy-0f766e?style=flat-square" alt="Security policy"></a>
+  <a href="https://github.com/0xCaptain888/agent-control-plane/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/security-policy-0f766e?style=flat-square" alt="Security policy"></a>
 </p>
 
 ## The thesis
@@ -40,11 +40,11 @@ It gives agents bounded capabilities to trade, pay, call APIs, use MCP tools, ma
 
 The repository is organized around reference applications rather than disconnected demos:
 
-- **[Safe Trade](https://github.com/0xCaptain888/agent-control-plane/tree/codex/security-upgrade/examples/safe-trade)** — bounded trading with approved and frozen outcomes.
-- **[Agent Commerce](https://github.com/0xCaptain888/agent-control-plane/tree/codex/security-upgrade/examples/agent-commerce)** — quote, escrow, verification, release, and recovery.
-- **[API Procurement](https://github.com/0xCaptain888/agent-control-plane/tree/codex/security-upgrade/examples/api-procurement)** — pay only after the purchased result is verified.
-- **[OKX Trade](https://github.com/0xCaptain888/agent-control-plane/tree/codex/security-upgrade/examples/okx-trade)** — judge-ready exchange flow with explicit blocked and frozen paths.
-- **[Solana Devnet](https://github.com/0xCaptain888/agent-control-plane/tree/codex/security-upgrade/examples/solana-devnet)** — resilient RPC, external signing, confirmation, and auditable failure handling.
+- **[Safe Trade](https://github.com/0xCaptain888/agent-control-plane/tree/main/examples/safe-trade)** — bounded trading with approved and frozen outcomes.
+- **[Agent Commerce](https://github.com/0xCaptain888/agent-control-plane/tree/main/examples/agent-commerce)** — quote, escrow, verification, release, and recovery.
+- **[API Procurement](https://github.com/0xCaptain888/agent-control-plane/tree/main/examples/api-procurement)** — pay only after the purchased result is verified.
+- **[OKX Trade](https://github.com/0xCaptain888/agent-control-plane/tree/main/examples/okx-trade)** — judge-ready exchange flow with explicit blocked and frozen paths.
+- **[Solana Devnet](https://github.com/0xCaptain888/agent-control-plane/tree/main/examples/solana-devnet)** — resilient RPC, external signing, confirmation, and auditable failure handling.
 
 ## What I am building next
 
@@ -53,9 +53,9 @@ Reusable adapters and proof-oriented workflows for exchanges, chains, MCP, x402,
 ## Find the signal quickly
 
 - [Core repository](https://github.com/0xCaptain888/agent-control-plane)
-- [Architecture](https://github.com/0xCaptain888/agent-control-plane/blob/codex/security-upgrade/docs/architecture.md)
-- [Hackathon guide](https://github.com/0xCaptain888/agent-control-plane/blob/codex/security-upgrade/docs/hackathon-guide.md)
-- [Local integration safety](https://github.com/0xCaptain888/agent-control-plane/blob/codex/security-upgrade/docs/local-development.md)
+- [Architecture](https://github.com/0xCaptain888/agent-control-plane/blob/main/docs/architecture.md)
+- [Hackathon guide](https://github.com/0xCaptain888/agent-control-plane/blob/main/docs/hackathon-guide.md)
+- [Local integration safety](https://github.com/0xCaptain888/agent-control-plane/blob/main/docs/local-development.md)
 
 <details>
 <summary>Selected experiments</summary>
